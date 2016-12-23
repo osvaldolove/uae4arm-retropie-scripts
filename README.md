@@ -15,8 +15,10 @@ sudo apt-get install unzip
 
 
 ## setup
-Zips should reside in the folder above the desired WHDLoad folder and named identically to the WHDLoad folder name. This information is parsed by the script using the "uaehf0" parameter in the .uae config used as a ROM to launch the game.
+Zip contents should be the contents of the WhdLoad folder, reside in the folder above the desired WHDLoad folder and named identically to the WHDLoad folder name. This information is parsed by the script using the "uaehf0" parameter in the .uae config used as a ROM to launch the game.
+
 e.g.
+
 Speedball 2.uae
 ```config
 uaehf0=dir,rw,DH1:games:/home/pi/RetroPie/roms/amiga/Games_WHDLoad/Speedball2/,0
