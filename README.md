@@ -1,13 +1,16 @@
-# uae4arm-retropie-scripts
+# uae4arm-retropie-whdload-zips
 Scripts to allow the use of Zipped WHDLoad folders with uae4arm using Retropie runcommand
 
 ## prerequisites
-- Linux Zip command
+- Raspberry Pi with Retropie 4.02+
+- zip command
 ```
 sudo apt-get install zip
 ```
-- Retropie 4.02+
-
+- unzip command
+```
+sudo apt-get install unzip
+```
 
 ## usage
 - Copy runcommand-uae4arm.sh to /opt/retropie/configs/all
